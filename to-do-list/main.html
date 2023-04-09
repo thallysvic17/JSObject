@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>To-do-list</title>
+</head>
+<body>
+    <div class="container">
+        <div class="login">
+            <div class="right-login">
+                    <h1>Testando Javascript</h1>
+                    <h4>ou tentanto !</h4>
+            </div>
+            <div class="left-login">
+                <div id="form">
+                    <label for="produto">Produto</label>
+                    <input type="text" name="produto" id="produto" placeholder="seu produto">
+                    <label for="produto">Valor</label>
+                    <input type="number" name="valor" id="valor" placeholder="valor produto">
+                    <div class="btns">
+                        <button onclick="produto.adicionar()">adicionar</button>
+                        <button onclick="produto.cancelar()">Cancelar</button>
+                    </div>
+                    
+                </div>
+                <table id="table">
+                    <thead>
+                        <th>ID</th>
+                        <th>produto</th>
+                        <th>valor</th>
+                        <th>acoes</th>
+                    </thead>
+                    <tbody id="tbody">
+                        
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
